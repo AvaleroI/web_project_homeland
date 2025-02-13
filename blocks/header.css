@@ -11,8 +11,6 @@
 }
 
 .header__image_logo {
-  display: flex;
-  justify-content: center;
   width: 254.84px;
   height: 68.94px;
   margin-top: 34px;
@@ -50,4 +48,6 @@
 }
 
 .header__image {
+  width: 984px;
+  height: 615px;
 }
