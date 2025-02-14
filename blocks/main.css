@@ -1,18 +1,23 @@
 .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
 }
 
 .main__content {
-  width: 830px;
-  height: 607px;
-  margin: 0 302px 92px 148px;
+  display: flex;
+  flex-direction: column;
+  max-width: 984px;
+  max-height: 607px;
+  margin: 92px auto 92px;
 }
 
-.main__title {
+.main__section_title {
   font-family: Inter;
   font-weight: 900;
   font-size: 54px;
-  line-height: 58px;
+  line-height: 1;
   letter-spacing: 0%;
   width: 830px;
   height: 174px;
@@ -20,11 +25,11 @@
   text-align: left;
 }
 
-.main__quote {
+.main__section_quote {
   font-family: Inter;
   font-weight: 400;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 1.4;
   letter-spacing: 0%;
   width: 738px;
   height: 136px;
@@ -32,27 +37,31 @@
   text-align: left;
 }
 
-.main__quote_author {
+.main__section_quote-author {
   width: 732px;
   height: 34px;
   font-family: Inter;
   font-weight: 400;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 1.4;
   letter-spacing: 0%;
   text-align: right;
   margin: 0;
 }
 
-.main__text {
+.main__section_text {
   font-family: Inter;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26.08px;
+  line-height: 1.6;
   letter-spacing: 0%;
   width: 722px;
-  margin-right: 410px;
-  margin-top: 32px;
-  margin-bottom: 0;
   text-align: left;
+  margin: 32px 410px 0 0;
+}
+
+@media screen and (min-widt: 545px) and (max-width: 1024) {
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
 }
