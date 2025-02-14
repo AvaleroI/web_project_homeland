@@ -23,7 +23,6 @@
   font-weight: 900;
   font-size: 96px;
   line-height: 1;
-  letter-spacing: 0%;
   text-align: center;
   margin: 91px auto 32px;
 }
@@ -34,7 +33,6 @@
   font-weight: 400;
   font-size: 30px;
   line-height: 1.2;
-  letter-spacing: 0%;
   text-align: center;
   margin: auto auto 64px;
 }
@@ -43,7 +41,7 @@
   width: 100%;
 }
 
-@media screen and (min-widt: 545px) and (max-width: 1024) {
+@media screen and (min-width: 545px) and (max-width: 1024px) {
   .header__image-logo {
     max-width: 254px;
     max-height: 66px;
@@ -57,7 +55,7 @@
   }
 
   .header__subtitle {
-    margin: autio auto 30px;
+    margin: auto auto 30px;
   }
 
   .header__image {
