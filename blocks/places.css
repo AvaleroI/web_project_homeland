@@ -31,7 +31,6 @@
   box-shadow: 5px 5px 10px 0px #00000040;
   max-width: 460px;
   max-height: 460px;
-  object-fit: fill;
 }
 
 .place__image:hover {
@@ -115,8 +114,17 @@
     margin: 0 24px 0;
   }
 
+  .place__name {
+    width: 100%;
+    grid-template-columns: 340px 1fr;
+  }
+
   .place__title {
     align-content: end;
+  }
+
+  .place__image {
+    width: 100%;
   }
 }
 
@@ -127,15 +135,18 @@
   }
 
   .place__name {
-    max-width: 100%;
+    width: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, auto);
-  gap: 30px;
-}
+    gap: 30px 30px;
+    margin-bottom: 50px;
+  }
 
-.place__image {
-  max-width: 100%;
-}
+  .place__website {
+    margin: 0;
+  }
 
+  .place__image {
+    max-width: 100%;
   }
 }
