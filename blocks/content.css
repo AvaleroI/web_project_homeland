@@ -47,7 +47,8 @@
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
   .content__main {
-    margin: 90px 24px 0;
+    max-width: 720px;
+    margin: 90px auto 0;
   }
 
   .content__section_title {
@@ -71,7 +72,8 @@
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
   .content__main {
-    margin: 64px 16px;
+    margin: 64px auto;
+    align-items: center;
   }
 
   .content__section_title {

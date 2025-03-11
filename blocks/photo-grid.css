@@ -1,8 +1,9 @@
 .photo-grid {
+  max-width: 1184px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  margin: 0 53px 92px 43px;
+  margin: 0 auto 92px;
   gap: 16px;
 }
 
@@ -15,7 +16,7 @@
     max-width: 720px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, 1fr);
-    margin: 64px 24px 88px;
+    margin: 64px auto 88px;
   }
 
   .photo-grid__image {
@@ -30,6 +31,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
     gap: 12px;
+    margin: 38px auto 62px;
   }
 
   .photo-grid__image {
