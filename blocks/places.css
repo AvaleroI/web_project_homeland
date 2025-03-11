@@ -1,10 +1,10 @@
-.place {
+.places {
   max-width: 987px;
   width: 100%;
   margin: auto;
 }
 
-.place__name {
+.places__name {
   max-width: 984px;
   display: grid;
   grid-template-columns: auto auto;
@@ -12,7 +12,7 @@
   margin-bottom: 80px;
 }
 
-.place__title {
+.places__title {
   max-width: 460px;
   font-family: Inter;
   font-weight: 900;
@@ -21,29 +21,29 @@
   margin: 0;
 }
 
-.place__title_cdmx {
+.places__title_cdmx {
   align-content: end;
 }
 
-.place__image {
+.places__image {
   box-shadow: 5px 5px 10px 0px #00000040;
   max-width: 460px;
 }
 
-.place__image:hover {
+.places__image:hover {
   opacity: 50%;
 }
 
-.place__image_cdmx {
+.places__image_cdmx {
   max-height: 460px;
 }
 
-.place__website {
+.places__website {
   max-width: 456px;
   align-content: end;
 }
 
-.place__pharagraphs {
+.places__pharagraphs {
   max-width: 484px;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -51,7 +51,7 @@
   grid-row-end: 5;
 }
 
-.place__pharagraph {
+.places__pharagraph {
   max-width: 484px;
   font-family: Inter;
   font-weight: 400;
@@ -60,7 +60,7 @@
   margin: 0 0 25px 0;
 }
 
-.place__button {
+.places__button {
   box-shadow: 5px 5px 10px 0px #00000040;
   max-width: 289px;
   max-height: 40px;
@@ -78,7 +78,7 @@
   flex-direction: column;
 }
 
-.place__button:hover {
+.places__button:hover {
   background: linear-gradient(
     90deg,
     rgba(2, 120, 254, 0.25) 0%,
@@ -86,7 +86,7 @@
   );
 }
 
-.place__artist {
+.places__artist {
   font-family: Inter;
   font-weight: 400;
   font-size: 12px;
@@ -94,7 +94,7 @@
   margin: 0 0 8px;
 }
 
-.place__artist-name {
+.places__artist-name {
   font-family: Inter;
   font-weight: 400;
   font-size: 18px;
@@ -103,17 +103,17 @@
 }
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
-  .place {
+  .places {
     max-width: 720px;
   }
 
-  .place__name {
+  .places__name {
     grid-template-columns: 1fr auto;
     grid-template-rows: repeat(4, auto);
     grid-gap: 30px;
   }
 
-  .place__title {
+  .places__title {
     font-size: 42px;
     line-height: 46px;
 
@@ -121,78 +121,78 @@
     align-content: end;
   }
 
-  .place__website {
+  .places__website {
     max-width: 340px;
     margin: 0;
   }
 
-  .place__image {
+  .places__image {
     max-width: 100%;
   }
 
-  .place__pharagraphs {
+  .places__pharagraphs {
     width: 100%;
     font-size: 16px;
   }
 
-  .place__pharagraph {
+  .places__pharagraph {
     max-width: 352px;
   }
 
-  .place__button {
+  .places__button {
     font-family: Inter;
     font-weight: 600;
     font-size: 16px;
     line-height: 100%;
   }
 
-  .place__name_cdmx {
+  .places__name_cdmx {
     padding: 0;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
-  .place {
+  .places {
     max-width: 320px;
   }
 
-  .place__name {
+  .places__name {
     grid-template-columns: auto;
     grid-template-rows: repeat(5, auto);
     gap: 30px;
     margin-bottom: 50px;
   }
 
-  .place__title {
+  .places__title {
     font-family: Inter;
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
   }
 
-  .place__pharagraph {
+  .places__pharagraph {
     font-size: 16px;
   }
 
-  .place__pharagraphs {
+  .places__pharagraphs {
     max-width: 100%;
     grid-column-start: 1;
     grid-row-start: 4;
   }
 
-  .place__website {
+  .places__website {
     margin: 0;
     grid-column-start: 1;
     grid-row-start: 2;
   }
 
-  .place__image {
+  .places__image {
     max-width: 320px;
     grid-column-start: 1;
     grid-row-start: 3;
   }
 
-  .place__title {
+  .places__title {
     font-size: 32px;
     line-height: 35px;
 
@@ -200,13 +200,13 @@
     align-content: end;
   }
 
-  .place__button {
+  .places__button {
     font-size: 12px;
     grid-column-start: 1;
     grid-row-start: 5;
   }
 
-  .place__name_cdmx {
+  .places__name_cdmx {
     padding: 0;
   }
 }
