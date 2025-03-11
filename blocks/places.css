@@ -113,7 +113,7 @@
   }
 
   .place__name {
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr auto;
     grid-template-rows: repeat(4, auto);
     grid-gap: 30px;
   }
